@@ -1,0 +1,77 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.next/
+.vercel/
+out/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.cache/
+.runtime/
+content/
+exports/
+spool/
+backups/
+logs/
+browser-profiles/
+browser-state/
+downloads/
+cookies*.json
+storage-state*.json
+*.log
+*.db
+*.db-*
+*.sqlite*
+*.dump
+*.bak
+.DS_Store
+.idea/
+.vscode/
+.mcp.json
+opencode.json
+.claude/settings.local.json
+.claude/skills/
+/.agents/skills/archify/
+.trail/cache/
+.archify/
+
+# Personal notes and reports kept out of the public repo
+report.md
+steps to run.txt
+
+# Owner's private agent rules and working logs: never commit unless the owner
+# says so. They stay on the owner's computer; the app does not read them.
+/AGENTS.md
+/CLAUDE.md
+/decisions.md
+/plan.md
+/updates.md
+/skills-lock.json
+.claude/
+.trail/
+.hallmark/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# Local upstream reference checkouts and installer copies
+/tools/rossark*/
+/.agents/skills/rossark-motion-skill/
+/.runtime-motion*
+/.runtime-MOTION.md
+/src/components/collector/MOTION.md
